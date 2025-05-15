@@ -1,11 +1,10 @@
+#include <iostream>
 #include "Animal.hpp"
 #include "Cat.hpp"
 #include "Dog.hpp"
 #include "WrongDog.hpp"
 #include "WrongAnimal.hpp"
 #include "WrongCat.hpp"
-
-#include <iostream>
 
 int main() {
 	std::cout <<  std::endl << "--- Dog test ---" << std::endl << std::endl;

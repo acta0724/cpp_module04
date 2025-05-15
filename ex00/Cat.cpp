@@ -12,7 +12,7 @@ Cat::~Cat() {
 	std::cout << "Cat destructor called" << std::endl;
 }
 
-Cat::Cat(const Cat& other) : Animal(other){
+Cat::Cat(const Cat& other) : Animal(other) {
 	std::cout << "Cat copy constructor called" << std::endl;
 	*this = other;
 }
@@ -25,6 +25,6 @@ Cat& Cat::operator=(const Cat& other) {
 	return *this;
 }
 
-void Cat::makesound() const{
+void Cat::makesound() const {
 	std::cout << "吾輩は猫である" << std::endl;
 }

@@ -25,6 +25,6 @@ WrongDog& WrongDog::operator=(const WrongDog& other) {
 	return *this;
 }
 
-void WrongDog::makesound() const{
+void WrongDog::makesound() const {
 	std::cout << "Woof woof!" << std::endl;
 }

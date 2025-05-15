@@ -1,7 +1,6 @@
 #include "WrongCat.hpp"
-
-#include <string>
 #include <iostream>
+#include <string>
 
 WrongCat::WrongCat() : WrongAnimal(){
 	this->type = "WrongCat";
@@ -12,7 +11,7 @@ WrongCat::~WrongCat() {
 	std::cout << "WrongCat destructor called" << std::endl;
 }
 
-WrongCat::WrongCat(const WrongCat& other) : WrongAnimal(other){
+WrongCat::WrongCat(const WrongCat& other) : WrongAnimal(other) {
 	std::cout << "WrongCat copy constructor called" << std::endl;
 	*this = other;
 }

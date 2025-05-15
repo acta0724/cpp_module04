@@ -32,7 +32,7 @@ Cat& Cat::operator=(const Cat& other) {
 	return *this;
 }
 
-void Cat::makesound() const{
+void Cat::makesound() const {
 	std::cout << "吾輩は猫である" << std::endl;
 }
 
